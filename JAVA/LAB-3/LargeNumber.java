@@ -14,13 +14,21 @@ public class LargeNumber
          
          int b = sc.nextInt();
 
-        if(a>b)
+         System.out.println("Enter number 2:");
+         
+         int c = sc.nextInt();
+
+        if(a>b && a>c)
         {
             System.out.println(a + "Is Large");
         }
-        else
+        else if(b>a && b>c)
         {
             System.out.println(b + "Is Large");
+        }
+        else
+        {
+            System.out.println(c + "Is Large");
         }
     }
 }
